@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 <<<<<<< HEAD
+<<<<<<< HEAD
   content: [
     "./src/*.{html,js}",
    "./*.{html,js}"],
@@ -10,6 +11,8 @@ module.exports = {
   plugins: [],
 }
 =======
+=======
+>>>>>>> 1ced2b3 (First-commit)
   content: ["./*.{html,js}", "./!(build|dist|.*)/**/*.{html,js}"],
   theme: {
     extend: {
@@ -136,4 +139,7 @@ module.exports = {
     preflight: false,
   },
 };
+<<<<<<< HEAD
+>>>>>>> 1ced2b3 (First-commit)
+=======
 >>>>>>> 1ced2b3 (First-commit)
