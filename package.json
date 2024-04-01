@@ -1,4 +1,10 @@
 {
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
+
+{
   "name": "jajjaja",
   "version": "1.0.0",
   "description": "",
