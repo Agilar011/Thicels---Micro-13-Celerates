@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Poppins";
+  src:  url("../src/fonts/poppins/poppins-regular-webfont.woff2") format("woff2"),
+        url("../src/fonts/poppins/poppins-regular-webfont.woff") format("woff"),
+        url("../src/fonts/poppins/poppins-regular-webfont.ttf") format("truetype"),
+        url("../src/fonts/poppins/poppins-regular-webfont.eot") format("embedded-opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-login {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #007bff;
+}
+
+.form-login h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.form-login p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-login input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-login button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-login .remember-me {
+  margin-bottom: 10px;
+}
+
+.form-login .remember-me input {
+  margin-right: 5px;
+}
+
+.form-login a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.form-login a:hover {
+  text-decoration: underline;
+}
