@@ -1,0 +1,157 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #161616;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #161616;
+}
+
+/* Form */
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Nominal Donasi */
+.nominal-donasi {
+    margin-bottom: 20px;
+}
+
+.pilihan-nominal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pilihan-nominal button {
+    background-color: #208BCC;
+    border: 1px solid #88C8F1;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.pilihan-nominal button.active {
+    background-color: #F6F8FA;
+    border-color: #88C8F1;
+    color: #88C8F1;
+}
+
+.input-nominal {
+    margin-top: 10px;
+}
+
+.input-nominal input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Rincian Pembayaran */
+.rincian-pembayaran {
+    margin-bottom: 20px;
+}
+
+.rincian-pembayaran table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.rincian-pembayaran th, .rincian-pembayaran td {
+    padding: 10px;
+    border-bottom: 1px solid #E5E7EB;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.rincian-pembayaran th {
+    text-align: left;
+    color: #161616;
+}
+
+.rincian-pembayaran td:last-child {
+    text-align: right;
+}
+
+/* Metode Pembayaran */
+.metode-pembayaran {
+    margin-bottom: 20px;
+}
+
+.metode-pembayaran select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Data Diri */
+.data-diri {
+    margin-bottom: 20px;
+}
+
+.data-diri input, .data-diri textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.data-diri label {
+    display: block;
+    margin
+}
+
+button[type="submit"] {
+    background-color: #208BCC; /* warna biru */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
