@@ -1,0 +1,1146 @@
+.homepage-psikolog {
+  background-color: #f2f7ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.homepage-psikolog .div {
+  background-color: #f2f7ff;
+  overflow: hidden;
+  width: 1440px;
+  height: 2577px;
+  position: relative;
+}
+
+.homepage-psikolog .overlap {
+  position: absolute;
+  width: 1454px;
+  height: 1339px;
+  top: 1px;
+  left: -9px;
+}
+
+.homepage-psikolog .overlap-group {
+  position: absolute;
+  width: 1454px;
+  height: 1339px;
+  top: 0;
+  left: 0;
+}
+
+.homepage-psikolog .hero-image {
+  position: absolute;
+  width: 786px;
+  height: 890px;
+  top: 78px;
+  left: 564px;
+  transform: rotate(0.29deg);
+}
+
+.homepage-psikolog .overlap-2 {
+  position: relative;
+  width: 795px;
+  height: 935px;
+  top: -4px;
+  left: -5px;
+}
+
+.homepage-psikolog .ellipse {
+  width: 18px;
+  height: 18px;
+  top: 153px;
+  left: 369px;
+  border-radius: 9.11px;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 6.43px 6.43px 12.87px #93939342;
+}
+
+.homepage-psikolog .ic {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 106px;
+  left: 319px;
+}
+
+.homepage-psikolog .overlap-group-2 {
+  position: relative;
+  height: 45px;
+  border-radius: 22.51px;
+}
+
+.homepage-psikolog .ellipse-2 {
+  width: 45px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  border-radius: 22.51px;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 6.43px 6.43px 12.87px #93939342;
+}
+
+.homepage-psikolog .light-bulb {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 7px;
+  left: 7px;
+  transform: rotate(-0.29deg);
+}
+
+.homepage-psikolog .mask-group {
+  position: absolute;
+  width: 790px;
+  height: 931px;
+  top: 2px;
+  left: 2px;
+  transform: rotate(-0.29deg);
+}
+
+.homepage-psikolog .konsultasi {
+  width: 815px;
+  top: 296px;
+  left: 154px;
+  font-family: "Poppins", Helvetica;
+  color: transparent;
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 68px;
+  position: absolute;
+  font-weight: 700;
+}
+
+.homepage-psikolog .text-wrapper {
+  color: #000000;
+  letter-spacing: 0.5px;
+}
+
+.homepage-psikolog .span {
+  color: #208bcc;
+  letter-spacing: 0.5px;
+}
+
+.homepage-psikolog .p {
+  position: absolute;
+  width: 570px;
+  top: 397px;
+  left: 154px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #5b6069;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: 32px;
+}
+
+.homepage-psikolog .rectangle {
+  position: absolute;
+  width: 1449px;
+  height: 598px;
+  top: 741px;
+  left: 0;
+  background: linear-gradient(180deg, rgb(231, 240, 255) 0%, rgba(232, 241, 255, 0.47) 100%);
+}
+
+.homepage-psikolog .group {
+  position: absolute;
+  width: 563px;
+  height: 375px;
+  top: 858px;
+  left: 742px;
+}
+
+.homepage-psikolog .group-wrapper {
+  height: 375px;
+}
+
+.homepage-psikolog .group-2 {
+  position: relative;
+  width: 569px;
+  height: 375px;
+}
+
+.homepage-psikolog .peduli-pasien {
+  position: absolute;
+  height: 67px;
+  top: 27px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 67px;
+  white-space: nowrap;
+}
+
+.homepage-psikolog .text-wrapper-2 {
+  color: #208bcc;
+}
+
+.homepage-psikolog .text-wrapper-3 {
+  color: #1b3c74;
+}
+
+.homepage-psikolog .text-wrapper-4 {
+  color: #124f7a;
+}
+
+.homepage-psikolog .text-wrapper-5 {
+  position: absolute;
+  width: 563px;
+  height: 116px;
+  top: 99px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #77829d;
+  font-size: 17px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+.homepage-psikolog .text-wrapper-6 {
+  position: absolute;
+  height: 27px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #208bcc;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.homepage-psikolog .li-elementor-icon {
+  position: absolute;
+  width: 258px;
+  height: 27px;
+  top: 293px;
+  left: 0;
+}
+
+.homepage-psikolog .svg {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 3px;
+  left: 0;
+}
+
+.homepage-psikolog .text-wrapper-7 {
+  position: absolute;
+  height: 27px;
+  top: -1px;
+  left: 30px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: var(--primary-800);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.homepage-psikolog .li-elementor-icon-2 {
+  width: 258px;
+  top: 348px;
+  position: absolute;
+  height: 27px;
+  left: 0;
+}
+
+.homepage-psikolog .li-elementor-icon-3 {
+  width: 308px;
+  top: 239px;
+  position: absolute;
+  height: 27px;
+  left: 0;
+}
+
+.homepage-psikolog .img {
+  position: absolute;
+  width: 331px;
+  height: 186px;
+  top: 885px;
+  left: 359px;
+  object-fit: cover;
+}
+
+.homepage-psikolog .rectangle-2 {
+  position: absolute;
+  width: 331px;
+  height: 194px;
+  top: 1022px;
+  left: 201px;
+  object-fit: cover;
+}
+
+.homepage-psikolog .div-stylish-shape-wrapper {
+  position: absolute;
+  width: 263px;
+  height: 86px;
+  top: 972px;
+  left: 109px;
+}
+
+.homepage-psikolog .div-stylish-shape {
+  position: relative;
+  height: 86px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 40px 40px -15px #94b6ce26;
+}
+
+.homepage-psikolog .svg-hd-acfd {
+  position: absolute;
+  width: 43px;
+  height: 34px;
+  top: 12px;
+  left: 16px;
+}
+
+.homepage-psikolog .text-wrapper-8 {
+  height: 27px;
+  top: 14px;
+  left: 64px;
+  font-family: "Inter", Helvetica;
+  color: #1b3c74;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 700;
+}
+
+.homepage-psikolog .text-wrapper-9 {
+  position: absolute;
+  height: 24px;
+  top: 48px;
+  left: 26px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #77829d;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.homepage-psikolog .nav {
+  position: absolute;
+  width: 1444px;
+  height: 104px;
+  top: 0;
+  left: 10px;
+  background-color: #f2f7ff;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: #1616160d;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.homepage-psikolog .group-3 {
+  position: absolute;
+  width: 268px;
+  height: 60px;
+  top: 12px;
+  left: 73px;
+}
+
+.homepage-psikolog .div-wrapper {
+  position: absolute;
+  width: 29px;
+  height: 30px;
+  top: 0;
+  left: 237px;
+  background-color: #ffffff;
+  border-radius: 14.5px/15px;
+  box-shadow: inset 0px 4px 4px #0000001f, 0px 4px 19px #1578f233;
+}
+
+.homepage-psikolog .overlap-group-wrapper {
+  position: relative;
+  width: 16px;
+  height: 17px;
+  top: 7px;
+  left: 6px;
+}
+
+.homepage-psikolog .overlap-group-3 {
+  position: relative;
+  height: 17px;
+}
+
+.homepage-psikolog .rectangle-3 {
+  position: absolute;
+  width: 6px;
+  height: 17px;
+  top: 0;
+  left: 5px;
+  background-color: #208bcc;
+  border-radius: 0.78px;
+}
+
+.homepage-psikolog .rectangle-4 {
+  position: absolute;
+  width: 7px;
+  height: 16px;
+  top: 0;
+  left: 5px;
+  background-color: #208bcc;
+  border-radius: 0.78px;
+  transform: rotate(90deg);
+}
+
+.homepage-psikolog .text-wrapper-10 {
+  position: absolute;
+  width: 232px;
+  height: 50px;
+  top: 10px;
+  left: 0;
+  font-family: "Sora", Helvetica;
+  font-weight: 600;
+  color: #208bcc;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage-psikolog .frame {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 27px;
+  left: 1134px;
+}
+
+.homepage-psikolog .frame-2 {
+  display: flex;
+  width: 110px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 24px;
+  position: relative;
+  background-color: #208bcc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.homepage-psikolog .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.5px;
+  margin-bottom: -0.5px;
+  margin-left: -3.5px;
+  margin-right: -3.5px;
+  font-family: var(--body-1-bold-font-family);
+  font-weight: var(--body-1-bold-font-weight);
+  color: var(--primary-50);
+  font-size: var(--body-1-bold-font-size);
+  letter-spacing: var(--body-1-bold-letter-spacing);
+  line-height: var(--body-1-bold-line-height);
+  font-style: var(--body-1-bold-font-style);
+}
+
+.homepage-psikolog .frame-3 {
+  display: flex;
+  width: 116px;
+  height: 51px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 24px;
+  position: relative;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  margin-right: -3px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 3px solid;
+  border-color: var(--primary-300);
+}
+
+.homepage-psikolog .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.5px;
+  margin-left: -2px;
+  font-family: var(--body-1-bold-font-family);
+  font-weight: var(--body-1-bold-font-weight);
+  color: #208bcc;
+  font-size: var(--body-1-bold-font-size);
+  letter-spacing: var(--body-1-bold-letter-spacing);
+  line-height: var(--body-1-bold-line-height);
+  font-style: var(--body-1-bold-font-style);
+}
+
+.homepage-psikolog .frame-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 28px;
+  position: absolute;
+  top: 44px;
+  left: 458px;
+}
+
+.homepage-psikolog .group-4 {
+  position: relative;
+  width: 112px;
+  height: 20px;
+}
+
+.homepage-psikolog .text-wrapper-13 {
+  position: absolute;
+  width: 110px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  font-family: var(--h5-font-family);
+  font-weight: var(--h5-font-weight);
+  color: #208bcc;
+  font-size: var(--h5-font-size);
+  text-align: center;
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+  white-space: nowrap;
+  font-style: var(--h5-font-style);
+}
+
+.homepage-psikolog .group-5 {
+  position: relative;
+  width: 112px;
+  height: 20px;
+  margin-right: -2px;
+}
+
+.homepage-psikolog .vector {
+  position: absolute;
+  width: 145px;
+  height: 12px;
+  top: 74px;
+  left: 77px;
+}
+
+.homepage-psikolog .overlap-wrapper {
+  position: absolute;
+  width: 385px;
+  height: 66px;
+  top: 503px;
+  left: 154px;
+}
+
+.homepage-psikolog .overlap-3 {
+  position: relative;
+  width: 383px;
+  height: 66px;
+  background-color: #208bcc;
+  border-radius: 30px;
+}
+
+.homepage-psikolog .text-wrapper-14 {
+  position: absolute;
+  width: 315px;
+  top: 9px;
+  left: 36px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  font-size: 29px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage-psikolog .overlap-4 {
+  position: absolute;
+  width: 1064px;
+  height: 39px;
+  top: 1388px;
+  left: 309px;
+}
+
+.homepage-psikolog .frame-5 {
+  position: absolute;
+  width: 872px;
+  height: 34px;
+  top: 0;
+  left: 192px;
+}
+
+.homepage-psikolog .temukan-berdasarkan {
+  position: absolute;
+  height: 34px;
+  top: 5px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #208bcc;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 67px;
+  white-space: nowrap;
+}
+
+.homepage-psikolog .frame-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  position: absolute;
+  top: 1492px;
+  left: 129px;
+}
+
+.homepage-psikolog .frame-7 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 28px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-psikolog .frame-8 {
+  position: relative;
+  width: 375px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.homepage-psikolog .overlap-5 {
+  position: relative;
+  width: 455px;
+  height: 364px;
+}
+
+.homepage-psikolog .stomatologist-doctor {
+  position: absolute;
+  width: 455px;
+  height: 364px;
+  top: 0;
+  left: 0;
+}
+
+.homepage-psikolog .overlap-group-4 {
+  position: relative;
+  width: 375px;
+  height: 300px;
+  background-color: var(--primary-100);
+  border-radius: 20px;
+  box-shadow: 5px 4px 30px #0000001a;
+}
+
+.homepage-psikolog .image {
+  position: absolute;
+  width: 128px;
+  height: 259px;
+  top: 41px;
+  left: 195px;
+}
+
+.homepage-psikolog .image-2 {
+  position: absolute;
+  width: 52px;
+  height: 259px;
+  top: 41px;
+  left: 323px;
+}
+
+.homepage-psikolog .frame-9 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px 30px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.homepage-psikolog .frame-10 {
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.homepage-psikolog .text-wrapper-15 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #1e1e1e;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.homepage-psikolog .text-wrapper-16 {
+  width: 183px;
+  position: relative;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--second);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.homepage-psikolog .frame-11 {
+  display: flex;
+  width: 157px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.homepage-psikolog .text-wrapper-17 {
+  position: relative;
+  width: 143px;
+  margin-top: -1px;
+  margin-left: -13px;
+  margin-right: -13px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: -0.15px;
+  line-height: normal;
+}
+
+.homepage-psikolog .frame-12 {
+  position: relative;
+  width: 375px;
+  height: 300px;
+  background-color: var(--primary-200);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 5px 4px 30px #0000001a;
+}
+
+.homepage-psikolog .overlap-group-5 {
+  position: relative;
+  height: 300px;
+}
+
+.homepage-psikolog .overlap-6 {
+  position: absolute;
+  width: 375px;
+  height: 300px;
+  top: 0;
+  left: 0;
+}
+
+.homepage-psikolog .frame-wrapper {
+  gap: 50px;
+  padding: 30px 30px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.homepage-psikolog .text-wrapper-18 {
+  position: relative;
+  width: 158px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--second);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.homepage-psikolog .female-dentist-with {
+  position: absolute;
+  width: 172px;
+  height: 241px;
+  top: 59px;
+  left: 203px;
+}
+
+.homepage-psikolog .frame-13 {
+  display: flex;
+  width: 157px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 152px;
+  left: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.homepage-psikolog .frame-14 {
+  position: relative;
+  width: 375px;
+  height: 300px;
+  background-color: var(--primary-100);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 5px 4px 30px #0000001a;
+}
+
+.homepage-psikolog .text-wrapper-19 {
+  width: 182px;
+  position: relative;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--second);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.homepage-psikolog .dentist-sergeon-wear {
+  position: absolute;
+  width: 201px;
+  height: 248px;
+  top: 52px;
+  left: 174px;
+}
+
+.homepage-psikolog .frame-15 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 27px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-psikolog .frame-16 {
+  position: relative;
+  width: 375px;
+  height: 300px;
+  background-color: var(--primary-200);
+  border-radius: 0px 0px 20px 0px;
+  overflow: hidden;
+  box-shadow: 5px 4px 30px #0000001a;
+}
+
+.homepage-psikolog .feeling-happy {
+  position: absolute;
+  width: 202px;
+  height: 239px;
+  top: 61px;
+  left: 173px;
+}
+
+.homepage-psikolog .text-wrapper-20 {
+  width: 220px;
+  position: relative;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--second);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.homepage-psikolog .overlap-7 {
+  position: relative;
+  width: 387px;
+  height: 300px;
+}
+
+.homepage-psikolog .excited-female {
+  position: absolute;
+  width: 256px;
+  height: 257px;
+  top: 43px;
+  left: 119px;
+}
+
+.homepage-psikolog .pengasuhan-anak-anak {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #1e1e1e;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.homepage-psikolog .front-view-young {
+  position: absolute;
+  width: 220px;
+  height: 248px;
+  top: 52px;
+  left: 155px;
+}
+
+.homepage-psikolog .frame-17 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px 0px 0px 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.homepage-psikolog .gangguan-kepribadian {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #1e1e1e;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.homepage-psikolog .text-wrapper-21 {
+  width: 192px;
+  position: relative;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--second);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.homepage-psikolog .footage-default {
+  position: absolute;
+  width: 1440px;
+  height: 394px;
+  top: 2183px;
+  left: 0;
+}
+
+.homepage-psikolog .footer {
+  width: 1440px;
+  height: 394px;
+  background-color: transparent;
+  background-image: url(./img/rectangle-1076.png);
+  background-size: 100% 100%;
+}
+
+.homepage-psikolog .frame-18 {
+  position: relative;
+  width: 1110px;
+  height: 182px;
+  top: 106px;
+  left: 138px;
+}
+
+.homepage-psikolog .frame-19 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.homepage-psikolog .frame-20 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-psikolog .group-6 {
+  position: relative;
+  width: 262px;
+  height: 49px;
+}
+
+.homepage-psikolog .group-7 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 236px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: inset 0px 4px 4px #0000001f, 0px 4px 19px #1578f233;
+}
+
+.homepage-psikolog .group-8 {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  top: 5px;
+  left: 5px;
+}
+
+.homepage-psikolog .overlap-group-6 {
+  position: relative;
+  height: 14px;
+}
+
+.homepage-psikolog .rectangle-5 {
+  position: absolute;
+  width: 5px;
+  height: 14px;
+  top: 0;
+  left: 4px;
+  background-color: #208bcc;
+  border-radius: 0.78px;
+}
+
+.homepage-psikolog .rectangle-6 {
+  position: absolute;
+  width: 5px;
+  height: 14px;
+  top: 0;
+  left: 4px;
+  background-color: #208bcc;
+  border-radius: 0.78px;
+  transform: rotate(90deg);
+}
+
+.homepage-psikolog .text-wrapper-22 {
+  position: absolute;
+  height: 40px;
+  top: 9px;
+  left: 0;
+  font-family: "Sora", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage-psikolog .element-w-tangerang-GA {
+  position: relative;
+  width: 471px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage-psikolog .frame-21 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-psikolog .frame-22 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  top: 0;
+  left: 482px;
+}
+
+.homepage-psikolog .text-wrapper-23 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage-psikolog .text-wrapper-24 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  opacity: 0.8;
+  font-family: "Sora", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage-psikolog .text-wrapper-25 {
+  position: relative;
+  width: fit-content;
+  opacity: 0.8;
+  font-family: "Sora", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage-psikolog .frame-23 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  top: 0;
+  left: 735px;
+}
+
+.homepage-psikolog .text-wrapper-26 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage-psikolog .frame-24 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  top: 5px;
+  left: 956px;
+}
