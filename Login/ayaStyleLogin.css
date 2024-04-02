@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Poppins";
-  src:  url("../src/fonts/poppins/poppins-regular-webfont.woff2") format("woff2"),
-        url("../src/fonts/poppins/poppins-regular-webfont.woff") format("woff"),
-        url("../src/fonts/poppins/poppins-regular-webfont.ttf") format("truetype"),
-        url("../src/fonts/poppins/poppins-regular-webfont.eot") format("embedded-opentype");
+  src: url("../src/fonts/poppins/poppins-regular-webfont.woff2") format("woff2"),
+       url("../src/fonts/poppins/poppins-regular-webfont.woff") format("woff"),
+       url("../src/fonts/poppins/poppins-regular-webfont.ttf") format("truetype"),
+       url("../src/fonts/poppins/poppins-regular-webfont.eot") format("embedded-opentype");
   font-weight: 400;
   font-style: normal;
 }

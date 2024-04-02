@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="h-screen bg-slate-100"></html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile doctor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="flex justify-between items-center text-center py-5 px-10 border-b border-gray-400" style="width: 100%; background-color: white; z-index: 1000;">
+    <img src="img/Warmth Smile.png" alt="Warmth Smile Icon" class="h-16 w-auto my-auto items-left" />
+    <div class="text-blue-400">
+        <a href="" class="mx-2 py-2">Beranda</a>
+        <a href="" class="mx-2 py-2">Donasi</a>
+        <a href="" class="mx-2 py-2">Layanan</a>
+        <a href="" class="mx-2 py-2">Kontak</a>
+    </div>
+    <div class="text-center font-semibold">
+        <a href="" class="py-1 px-4 bg-blue-400 rounded-xl text-white font-bold border-4 border-blue-400">Masuk</a>
+        <a href="" class="py-1 px-4 bg-white rounded-xl text-blue-400 font-bold border-4 border-blue-400">Daftar</a>
+    </div>
+  </nav>
+
+  <header>
+      <div class="mt-8">
+          <h1 class="text-6xl font-bold text-center ">PROFIL DOKTER</h1>
+          <h2 class="leading-loose text-4xl text-center">Kenali Dokter Kami</h2>
+      </div>
+  </header>
+
+  <div class="mt-16 container mx-auto">
+        <div class="flex flex-row items-center">
+          <input type="text" class="w-full border rounded-l-lg border-gray-300 px-4 py-2 focus:outline-none focus:border-blue-500" placeholder="Cari Dokter...">
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-r-lg">Cari</button>
+        </div>
+  </div>
+  <div class="mt-16 container mx-auto">
+        <div class="grid grid-cols-3 gap-4">
+          <div class="card bg-blue-100 rounded-lg shadow-md">
+            <div class="flex flex-col items-center p-4">
+              <img src="img/dokter1.png" class="w-64 h-64 rounded-full object-scale-down mb-4">
+              <h5 class="text-gray-900 font-bold text-4xl mb-2">dr. Smith Werson</h5>
+              <p class="text-gray-700 text-base text-center leading-loose">25 tahun pengalaman
+                <br>Bidang Keahlian : Terapis Wicara
+                <br>Universitas Padjajaran
+                <br>RS Sumber Asih
+                <br>20128374652348
+              </p>
+              <div class="mt-8 container mx-auto">
+                <div class="flex flex-row justify-center">
+                  <button type="button" class="bg-green-500 text-white px-4 py-2 rounded-md mr-2 disabled font-bold">90%</button>
+                  <button type="button" class="bg-white text-black px-4 py-2 rounded-md disabled font-bold">Available: Today</button>
+                </div>
+                <div class="flex flex-row justify-center mt-4 mb-4">
+                  <button type="button" class="bg-blue-500 text-white px-8 py-4 rounded-lg font-bold text-3xl">Lihat Dokter</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-blue-100 rounded-lg shadow-md">
+            <div class="flex flex-col items-center p-4">
+              <img src="img/dokter2.png" class="w-64 h-64 rounded-full object-scale-down mb-4">
+              <h5 class="text-gray-900 font-bold text-4xl mb-2">dr. Elizabeth</h5>
+              <p class="text-gray-700 text-base text-center leading-loose">25 tahun pengalaman
+                <br>Bidang Keahlian : Terapis Wicara
+                <br>Universitas Sebelas Maret
+                <br>RS Betsaida
+                <br>20128374652348
+              </p>
+              <div class="mt-8 container mx-auto">
+                <div class="flex flex-row justify-center">
+                  <button type="button" class="bg-green-500 text-white px-4 py-2 rounded-md mr-2 disabled font-bold">90%</button>
+                  <button type="button" class="bg-red-700 text-white px-4 py-2 rounded-md disabled font-bold">Not Available</button>
+                </div>
+                <div class="flex flex-row justify-center mt-4 mb-4">
+                  <button type="button" class="bg-blue-500 text-white px-8 py-4 rounded-lg font-bold text-3xl">Lihat Dokter</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-blue-100 rounded-lg shadow-md">
+            <div class="flex flex-col items-center p-4">
+              <img src="img/dokter3.png" class="w-64 h-64 rounded-full object-scale-down mb-4">
+              <h5 class="text-gray-900 font-bold text-4xl mb-2">dr. Anousheh Ansari</h5>
+              <p class="text-black text-base text-center leading-loose">25 tahun pengalaman
+                <br>Bidang Keahlian : Terapis Wicara
+                <br>Universitas Indonesia
+                <br>RS Muhammadiyah
+                <br>20128374652348
+              </p>
+              <div class="mt-8 container mx-auto">
+                <div class="flex flex-row justify-center">
+                  <button type="button" class="bg-green-500 text-white px-4 py-2 rounded-md mr-2 disabled font-bold">90%</button>
+                  <button type="button" class="bg-white text-black px-4 py-2 rounded-md disabled font-bold">Available: Today</button>
+                </div>
+                <div class="flex flex-row justify-center mt-4 mb-4">
+                  <button type="button" class="bg-blue-500 text-white px-8 py-4 rounded-lg font-bold text-3xl">Lihat Dokter</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="mt-16 mb-16 flex flex-row items-center justify-center">
+        <div class="w-4 h-4 rounded-full bg-blue-500 mx-1"></div>
+        <div class="w-4 h-4 rounded-full bg-gray-300 mx-1"></div>
+        <div class="w-4 h-4 rounded-full bg-gray-300 mx-1"></div>
+        <div class="w-4 h-4 rounded-full bg-gray-300 mx-1"></div>
+        <div class="w-4 h-4 rounded-full bg-gray-300 mx-1"></div>
+    </div>
+</body>
+</html>
