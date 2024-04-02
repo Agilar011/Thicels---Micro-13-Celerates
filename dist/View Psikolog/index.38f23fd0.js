@@ -142,14 +142,14 @@
       this[globalName] = mainExports;
     }
   }
-})({"hAbKD":[function(require,module,exports) {
+})({"aUmZn":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "0907ca6d3464ddca";
+module.bundle.HMR_BUNDLE_ID = "07300de438f23fd0";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -583,8 +583,28 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"j4kuM":[function(require,module,exports) {
+},{}],"3Kgkw":[function(require,module,exports) {
+const dropdownBtn = document.querySelector(".dropdown-btn");
+const dropdownContent = document.querySelector(".dropdown-content");
+const textWrapper = document.querySelector(".text-wrapper-2");
+dropdownBtn.addEventListener("click", ()=>{
+    dropdownContent.classList.toggle("show");
+});
+dropdownContent.addEventListener("click", (event)=>{
+    const selectedOption = event.target.closest("li");
+    if (selectedOption) {
+        textWrapper.textContent = selectedOption.textContent;
+        dropdownContent.classList.remove("show");
+        dropdownContent.querySelectorAll("li").forEach((option)=>{
+            option.classList.remove("selected");
+        });
+        selectedOption.classList.add("selected");
+    }
+});
+document.addEventListener("click", (event)=>{
+    if (!event.target.closest(".dropdown")) dropdownContent.classList.remove("show");
+});
 
-},{}]},["hAbKD","j4kuM"], "j4kuM", "parcelRequiree683")
+},{}]},["aUmZn","3Kgkw"], "3Kgkw", "parcelRequiree683")
 
-//# sourceMappingURL=laoe.3464ddca.js.map
+//# sourceMappingURL=index.38f23fd0.js.map
