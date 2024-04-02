@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"gqYzz":[function(require,module,exports) {
+})({"dfups":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -585,6 +585,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"dG2Ym":[function(require,module,exports) {
 
-},{}]},["gqYzz","dG2Ym"], "dG2Ym", "parcelRequiree683")
+},{}]},["dfups","dG2Ym"], "dG2Ym", "parcelRequiree683")
 
 //# sourceMappingURL=ReviewRate.3f925592.js.map
