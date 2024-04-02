@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 <<<<<<< HEAD
@@ -137,3 +138,5 @@ module.exports = {
   },
 };
 >>>>>>> 1ced2b3 (First-commit)
+=======
+>>>>>>> 920b561edd2c4401fae2c32ba48d0782ffe071ab

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 <<<<<<< HEAD
   "devDependencies": {
@@ -18,3 +19,5 @@
     "tailwindcss": "^3.4.3"
   }
 }
+=======
+>>>>>>> 920b561edd2c4401fae2c32ba48d0782ffe071ab
