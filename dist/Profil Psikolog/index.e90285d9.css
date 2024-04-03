@@ -1,0 +1,850 @@
+.profil-psikolog {
+  background-color: #f2f7ff;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.profil-psikolog .div {
+  background-color: #f2f7ff;
+  width: 1512px;
+  height: 1467px;
+  position: relative;
+  overflow: hidden;
+}
+
+.profil-psikolog .nav {
+  background-color: #f2f7ff;
+  border-color: #1616160d;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  width: 1513px;
+  height: 104px;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.profil-psikolog .group {
+  width: 281px;
+  height: 60px;
+  position: absolute;
+  top: 12px;
+  left: 76px;
+}
+
+.profil-psikolog .group-wrapper {
+  background-color: #fff;
+  border-radius: 15.19px / 15px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 248px;
+  box-shadow: inset 0 4px 4px #0000001f, 0 4px 19px #1578f233;
+}
+
+.profil-psikolog .overlap-group-wrapper {
+  width: 17px;
+  height: 17px;
+  position: relative;
+  top: 7px;
+  left: 7px;
+}
+
+.profil-psikolog .overlap-group {
+  height: 17px;
+  position: relative;
+}
+
+.profil-psikolog .rectangle {
+  background-color: #208bcc;
+  border-radius: .78px;
+  width: 7px;
+  height: 17px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+
+.profil-psikolog .rectangle-2 {
+  background-color: #208bcc;
+  border-radius: .78px;
+  width: 7px;
+  height: 17px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transform: rotate(90deg);
+}
+
+.profil-psikolog .text-wrapper {
+  color: #208bcc;
+  letter-spacing: 0;
+  width: 243px;
+  height: 50px;
+  font-family: Sora, Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.profil-psikolog .frame {
+  align-items: flex-start;
+  gap: 10px;
+  display: inline-flex;
+  position: absolute;
+  top: 27px;
+  left: 1191px;
+}
+
+.profil-psikolog .div-wrapper {
+  background-color: #208bcc;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 110px;
+  height: 45px;
+  padding: 8px 24px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.profil-psikolog .text-wrapper-2 {
+  font-family: var(--body-1-bold-font-family);
+  font-weight: var(--body-1-bold-font-weight);
+  color: var(--primary-50);
+  font-size: var(--body-1-bold-font-size);
+  letter-spacing: var(--body-1-bold-letter-spacing);
+  line-height: var(--body-1-bold-line-height);
+  font-style: var(--body-1-bold-font-style);
+  width: fit-content;
+  margin: -.5px -3.5px;
+  position: relative;
+}
+
+.profil-psikolog .frame-2 {
+  border: 3px solid;
+  border-color: var(--primary-300);
+  background-color: #fff;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 116px;
+  height: 51px;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  margin-right: -3px;
+  padding: 8px 24px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.profil-psikolog .text-wrapper-3 {
+  font-family: var(--body-1-bold-font-family);
+  font-weight: var(--body-1-bold-font-weight);
+  color: #208bcc;
+  font-size: var(--body-1-bold-font-size);
+  letter-spacing: var(--body-1-bold-letter-spacing);
+  line-height: var(--body-1-bold-line-height);
+  font-style: var(--body-1-bold-font-style);
+  width: fit-content;
+  margin-top: -.5px;
+  margin-left: -2px;
+  position: relative;
+}
+
+.profil-psikolog .frame-3 {
+  align-items: flex-start;
+  gap: 28px;
+  display: inline-flex;
+  position: absolute;
+  top: 44px;
+  left: 493px;
+}
+
+.profil-psikolog .group-2 {
+  width: 112px;
+  height: 20px;
+  position: relative;
+}
+
+.profil-psikolog .text-wrapper-4 {
+  font-family: var(--h5-font-family);
+  font-weight: var(--h5-font-weight);
+  color: #208bcc;
+  font-size: var(--h5-font-size);
+  text-align: center;
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+  white-space: nowrap;
+  font-style: var(--h5-font-style);
+  width: 110px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.profil-psikolog .group-3 {
+  width: 112px;
+  height: 20px;
+  margin-right: -2px;
+  position: relative;
+}
+
+.profil-psikolog .vector {
+  width: 145px;
+  height: 12px;
+  position: absolute;
+  top: 73px;
+  left: 77px;
+}
+
+.profil-psikolog .overlap {
+  width: 791px;
+  height: 966px;
+  position: absolute;
+  top: 106px;
+  left: 0;
+}
+
+.profil-psikolog .frame-4 {
+  align-items: center;
+  gap: 3.94px;
+  display: inline-flex;
+  position: absolute;
+  top: 123px;
+  left: 80px;
+}
+
+.profil-psikolog .arrow-left {
+  width: 15.76px;
+  height: 15.76px;
+  position: relative;
+}
+
+.profil-psikolog .text-wrapper-5 {
+  color: #818af9;
+  text-align: center;
+  letter-spacing: .37px;
+  white-space: nowrap;
+  width: fit-content;
+  margin-top: -1.31px;
+  font-family: Manrope, Helvetica;
+  font-size: 18.4px;
+  font-weight: 600;
+  line-height: 19.7px;
+  position: relative;
+}
+
+.profil-psikolog .overlap-wrapper {
+  background-color: #c0e0f7;
+  width: 791px;
+  height: 966px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.profil-psikolog .overlap-2 {
+  width: 1065px;
+  height: 1589px;
+  position: relative;
+  top: -158px;
+  left: -174px;
+}
+
+.profil-psikolog .ellipse {
+  opacity: .1;
+  background: linear-gradient(#818af9 0%, #818af900 100%);
+  border-radius: 469.54px;
+  width: 939px;
+  height: 939px;
+  position: absolute;
+  top: 610px;
+  left: 87px;
+  transform: rotate(-5deg);
+}
+
+.profil-psikolog .ellipse-2 {
+  filter: blur(131.32px);
+  opacity: .1;
+  background: linear-gradient(#818af9 0%, #8288d7 100%);
+  border-radius: 315.06px;
+  width: 630px;
+  height: 630px;
+  position: absolute;
+  top: 26px;
+  left: 26px;
+  transform: rotate(-175deg);
+}
+
+.profil-psikolog .img {
+  width: 712px;
+  height: 851px;
+  position: absolute;
+  top: 225px;
+  left: 188px;
+}
+
+.profil-psikolog .frame-5 {
+  align-items: center;
+  gap: 22.14px;
+  display: inline-flex;
+  position: absolute;
+  top: 205px;
+  left: 213px;
+}
+
+.profil-psikolog .arrow-left-2 {
+  width: 26.57px;
+  height: 26.57px;
+  position: relative;
+}
+
+.profil-psikolog .text-wrapper-6 {
+  color: #000;
+  text-align: center;
+  letter-spacing: .53px;
+  white-space: nowrap;
+  width: fit-content;
+  margin-top: -2.21px;
+  font-family: Manrope, Helvetica;
+  font-size: 26.6px;
+  font-weight: 700;
+  line-height: 33.2px;
+  position: relative;
+}
+
+.profil-psikolog .frame-6 {
+  background-color: #fff;
+  border-radius: 18.38px;
+  align-items: center;
+  gap: 237.69px;
+  width: 703px;
+  height: 109px;
+  padding: 26.26px;
+  display: flex;
+  position: absolute;
+  top: 815px;
+  left: 37px;
+  box-shadow: 0 2.63px 39.4px #35385a1f;
+}
+
+.profil-psikolog .text-wrapper-7 {
+  color: #208bcc;
+  text-align: center;
+  letter-spacing: 0;
+  white-space: nowrap;
+  width: 643.46px;
+  height: 64.35px;
+  margin-top: -5.25px;
+  margin-bottom: -2.63px;
+  font-family: Poppins, Helvetica;
+  font-size: 39.4px;
+  font-weight: 700;
+  line-height: 67.2px;
+  position: relative;
+}
+
+.profil-psikolog .text-wrapper-8 {
+  color: #208bcc;
+  letter-spacing: 0;
+  width: 624px;
+  font-family: Poppins, Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 67.2px;
+  position: absolute;
+  top: 177px;
+  left: 834px;
+}
+
+.profil-psikolog .frame-7 {
+  align-items: center;
+  gap: 15.76px;
+  display: inline-flex;
+  position: absolute;
+  top: 289px;
+  left: 834px;
+}
+
+.profil-psikolog .frame-8 {
+  flex: none;
+  align-items: center;
+  gap: 3.94px;
+  display: inline-flex;
+  position: relative;
+}
+
+.profil-psikolog .text-wrapper-9 {
+  color: #000;
+  text-align: center;
+  letter-spacing: 2.6px;
+  white-space: nowrap;
+  width: fit-content;
+  margin-top: -1.31px;
+  font-family: Poppins, Helvetica;
+  font-size: 15.8px;
+  font-weight: 500;
+  line-height: 19.7px;
+  position: relative;
+}
+
+.profil-psikolog .line {
+  width: 1.31px;
+  height: 10.51px;
+  position: relative;
+}
+
+.profil-psikolog .frame-9 {
+  flex: none;
+  align-items: flex-start;
+  gap: 9.19px;
+  display: inline-flex;
+  position: relative;
+}
+
+.profil-psikolog .element-rating-star {
+  width: 18.38px;
+  height: 19.7px;
+  position: relative;
+}
+
+.profil-psikolog .element-rating-star-2 {
+  width: 19.7px;
+  height: 19.7px;
+  position: relative;
+}
+
+.profil-psikolog .text-wrapper-10 {
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  color: #0000;
+  text-align: center;
+  letter-spacing: .32px;
+  white-space: nowrap;
+  background: linear-gradient(#171c24 0%, #28323f 100%) text;
+  width: fit-content;
+  margin-top: -1.31px;
+  font-family: Manrope, Helvetica;
+  font-size: 15.8px;
+  font-weight: 500;
+  line-height: 19.7px;
+  position: relative;
+  -webkit-background-clip: text !important;
+}
+
+.profil-psikolog .frame-10 {
+  align-items: center;
+  gap: 3.94px;
+  display: inline-flex;
+  position: absolute;
+  top: 771px;
+  left: 893px;
+}
+
+.profil-psikolog .text-wrapper-11 {
+  color: #000;
+  text-align: center;
+  letter-spacing: 1.58px;
+  white-space: nowrap;
+  width: fit-content;
+  margin-top: -1.31px;
+  font-family: Poppins, Helvetica;
+  font-size: 15.8px;
+  font-weight: 500;
+  line-height: 19.7px;
+  position: relative;
+}
+
+.profil-psikolog .text-wrapper-12 {
+  color: #000;
+  text-align: center;
+  letter-spacing: .32px;
+  white-space: nowrap;
+  font-family: Poppins, Helvetica;
+  font-size: 15.8px;
+  font-weight: 600;
+  line-height: 19.7px;
+  position: absolute;
+  top: 587px;
+  left: 834px;
+}
+
+.profil-psikolog .text-wrapper-13 {
+  color: #000;
+  text-align: center;
+  letter-spacing: .32px;
+  white-space: nowrap;
+  font-family: Poppins, Helvetica;
+  font-size: 15.8px;
+  font-weight: 600;
+  line-height: 19.7px;
+  position: absolute;
+  top: 715px;
+  left: 837px;
+}
+
+.profil-psikolog .overlap-3 {
+  background-color: #c0e0f7;
+  border-radius: 25.34px;
+  width: 201px;
+  height: 35px;
+  position: absolute;
+  top: 629px;
+  left: 835px;
+}
+
+.profil-psikolog .text-wrapper-14 {
+  color: #185fa0;
+  letter-spacing: 0;
+  white-space: nowrap;
+  height: 33px;
+  font-family: Poppins, Helvetica;
+  font-size: 15.8px;
+  font-weight: 500;
+  line-height: 32.4px;
+  position: absolute;
+  top: 0;
+  left: 22px;
+}
+
+.profil-psikolog .overlap-4 {
+  background-color: #c0e0f7;
+  border-radius: 25.34px;
+  width: 223px;
+  height: 35px;
+  position: absolute;
+  top: 629px;
+  left: 1053px;
+}
+
+.profil-psikolog .text-wrapper-15 {
+  color: #185fa0;
+  letter-spacing: 0;
+  white-space: nowrap;
+  height: 33px;
+  font-family: Poppins, Helvetica;
+  font-size: 15.8px;
+  font-weight: 500;
+  line-height: 32.4px;
+  position: absolute;
+  top: 0;
+  left: 18px;
+}
+
+.profil-psikolog .p {
+  color: #000;
+  text-align: justify;
+  letter-spacing: 1.31px;
+  width: 578px;
+  font-family: Poppins, Helvetica;
+  font-size: 13.1px;
+  font-weight: 500;
+  line-height: 19.7px;
+  position: absolute;
+  top: 407px;
+  left: 839px;
+}
+
+.profil-psikolog .text-wrapper-16 {
+  color: #000;
+  text-align: center;
+  letter-spacing: .32px;
+  white-space: nowrap;
+  font-family: Poppins, Helvetica;
+  font-size: 15.8px;
+  font-weight: 700;
+  line-height: 19.7px;
+  position: absolute;
+  top: 365px;
+  left: 834px;
+}
+
+.profil-psikolog .mingcute-hospital {
+  width: 39px;
+  height: 39px;
+  position: absolute;
+  top: 758px;
+  left: 836px;
+}
+
+.profil-psikolog .frame-11 {
+  align-items: center;
+  gap: 3.94px;
+  display: inline-flex;
+  position: absolute;
+  top: 828px;
+  left: 893px;
+}
+
+.profil-psikolog .mingcute-hospital-2 {
+  width: 39px;
+  height: 39px;
+  position: absolute;
+  top: 815px;
+  left: 836px;
+}
+
+.profil-psikolog .frame-12 {
+  align-items: center;
+  gap: 3.94px;
+  display: inline-flex;
+  position: absolute;
+  top: 888px;
+  left: 893px;
+}
+
+.profil-psikolog .mingcute-hospital-3 {
+  width: 39px;
+  height: 39px;
+  position: absolute;
+  top: 875px;
+  left: 836px;
+}
+
+.profil-psikolog .group-4 {
+  width: 295px;
+  height: 47px;
+  position: absolute;
+  top: 959px;
+  left: 1018px;
+}
+
+.profil-psikolog .overlap-5 {
+  background-color: #208bcc;
+  border-radius: 21.4px;
+  width: 293px;
+  height: 47px;
+  position: relative;
+}
+
+.profil-psikolog .text-wrapper-17 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0;
+  width: 253px;
+  font-family: Poppins, Helvetica;
+  font-size: 20.7px;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  top: 7px;
+  left: 23px;
+}
+
+.profil-psikolog .footage-default {
+  width: 1512px;
+  height: 394px;
+  position: absolute;
+  top: 1073px;
+  left: 0;
+}
+
+.profil-psikolog .footer {
+  background-color: #0000;
+  background-image: url("../rectangle-1076-1.c7154fff.png");
+  background-size: 100% 100%;
+  width: 1512px;
+  height: 394px;
+}
+
+.profil-psikolog .frame-13 {
+  width: 1166px;
+  height: 182px;
+  position: relative;
+  top: 106px;
+  left: 145px;
+}
+
+.profil-psikolog .frame-14 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.profil-psikolog .frame-15 {
+  flex-direction: column;
+  flex: none;
+  align-items: flex-start;
+  gap: 16px;
+  display: inline-flex;
+  position: relative;
+}
+
+.profil-psikolog .group-5 {
+  width: 262px;
+  height: 49px;
+  position: relative;
+}
+
+.profil-psikolog .group-6 {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 0;
+  left: 236px;
+  box-shadow: inset 0 4px 4px #0000001f, 0 4px 19px #1578f233;
+}
+
+.profil-psikolog .group-7 {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.profil-psikolog .overlap-group-2 {
+  height: 14px;
+  position: relative;
+}
+
+.profil-psikolog .rectangle-3 {
+  background-color: #208bcc;
+  border-radius: .78px;
+  width: 5px;
+  height: 14px;
+  position: absolute;
+  top: 0;
+  left: 4px;
+}
+
+.profil-psikolog .rectangle-4 {
+  background-color: #208bcc;
+  border-radius: .78px;
+  width: 5px;
+  height: 14px;
+  position: absolute;
+  top: 0;
+  left: 4px;
+  transform: rotate(90deg);
+}
+
+.profil-psikolog .text-wrapper-18 {
+  color: #fff;
+  letter-spacing: 0;
+  height: 40px;
+  font-family: Sora, Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 9px;
+  left: 0;
+}
+
+.profil-psikolog .element-w-tangerang-GA {
+  color: #fff;
+  letter-spacing: 0;
+  width: 471px;
+  font-family: Poppins, Helvetica;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  position: relative;
+}
+
+.profil-psikolog .frame-16 {
+  flex: none;
+  position: relative;
+}
+
+.profil-psikolog .frame-17 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+  left: 482px;
+}
+
+.profil-psikolog .text-wrapper-19 {
+  color: #fff;
+  letter-spacing: 0;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: Poppins, Helvetica;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: normal;
+  position: relative;
+}
+
+.profil-psikolog .text-wrapper-20 {
+  opacity: .8;
+  color: #fff;
+  letter-spacing: 0;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: Sora, Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+}
+
+.profil-psikolog .text-wrapper-21 {
+  opacity: .8;
+  color: #fff;
+  letter-spacing: 0;
+  width: fit-content;
+  font-family: Sora, Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+}
+
+.profil-psikolog .frame-18 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+  left: 735px;
+}
+
+.profil-psikolog .text-wrapper-22 {
+  color: #fff;
+  letter-spacing: 0;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: Poppins, Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+}
+
+.profil-psikolog .frame-19 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+  position: absolute;
+  top: 5px;
+  left: 956px;
+}
+/*# sourceMappingURL=index.e90285d9.css.map */

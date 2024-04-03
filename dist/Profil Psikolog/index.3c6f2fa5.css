@@ -1,0 +1,23 @@
+:root {
+  --primary-50: #f1f8fe;
+  --primary-300: #88c8f1;
+  --primary-100: #e3effb;
+  --body-1-bold-font-family: "Poppins", Helvetica;
+  --body-1-bold-font-weight: 700;
+  --body-1-bold-font-size: 20px;
+  --body-1-bold-letter-spacing: 0px;
+  --body-1-bold-line-height: -1200%;
+  --body-1-bold-font-style: normal;
+  --h5-font-family: "Poppins", Helvetica;
+  --h5-font-weight: 400;
+  --h5-font-size: 23px;
+  --h5-letter-spacing: 0px;
+  --h5-line-height: 140.0%;
+  --h5-font-style: normal;
+  --number-system-main-system-8px: 8px;
+  --number-system-main-system-10px: 10px;
+  --number-system-main-system-12px: 12px;
+  --colors-primary-600: #458e22;
+  --colors-base-black: #000;
+}
+/*# sourceMappingURL=index.3c6f2fa5.css.map */

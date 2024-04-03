@@ -1,0 +1,21 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
+@import "https://fonts.googleapis.com/css?family=Poppins:300,var(--body-1-bold-font-weight),800,var(--h5-font-weight),500,700,600,italic|Roboto:500|Inter:500,700|Sora:400,600";
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.62f56854.css.map */

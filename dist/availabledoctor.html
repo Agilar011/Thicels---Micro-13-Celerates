@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <nav class="flex items-center justify-between bg-F2F7FF py-4 px-6 shadow-md">
+        <!-- Logo -->
+        <div class="flex items-center">
+            <img src="/logo.3421123a.png" alt="Logo" class="h-15 mr-4">
+        </div>
+
+        <!-- Navigasi -->
+        <div class="flex-grow text-center">
+            <ul class="flex justify-center space-x-6">
+                <li><a href="#" class="text-blue-400 hover:text-gray-900 transition duration-300">Beranda</a></li>
+                <li><a href="#" class="text-blue-400 hover:text-gray-900 transition duration-300">Donasi</a></li>
+                <li><a href="#" class="text-blue-400 hover:text-gray-900 transition duration-300">Layanan</a></li>
+                <li><a href="#" class="text-blue-400 hover:text-gray-900 transition duration-300">Kontak</a></li>
+            </ul>
+        </div>
+
+        <!-- Tombol -->
+        <div class="flex items-center space-x-4">
+            <button class="bg-blue-500 text-white py-2 px-4 rounded-r-md rounded-l-md hover:bg-blue-600 transition duration-300">Masuk</button>
+            <button class="bg-white text-blue-500 py-2 px-4 rounded-r-md rounded-l-md border border-blue-500 hover:bg-blue-100 transition duration-300">Daftar</button>
+        </div>
+    </nav>
+
+    <!-- Judul -->
+    <div class="container mx-auto mt-8 text-center">
+        <h1 class="text-3xl font-ag font-bold">JADWAL DOKTER BEDAH MULUT</h1>
+        <p class="text-lg mt-1">Ketahui jadwal dokter Kami</p>
+    </div>
+
+
+    <!-- Tabel -->
+    <div class="container mx-auto mt-8 max-w-6xl rounded-lg p-4"> <!-- Mengatur lebar kontainer dan menambahkan padding -->
+        <div class="flex items-center mb-4">
+            <div class="bg-blue-200 inline-block rounded-full px-4 py-2 mr-4">
+                <p class="font-ag font-bold">Senin, 13 Maret 2024</p>
+            </div>
+            <div class="bg-blue-200 inline-block rounded-full px-2 py-2">
+                <img src="/calendar.41d8a2e0.png" class="h-6">
+            </div>
+        </div>
+
+        <table class="w-full table-auto bg-blue-400 rounded-lg">
+            <thead>
+                <tr class="bg-49ABE7 text-white">
+                    <th class="py-2 px-4 text-left">Dokter Kami</th>
+                    <th class="py-2 px-4">Spesialisasi</th>
+                    <th class="py-2 px-4">Keterangan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-49ABE7 text-white">
+                    <td class="py-2 px-4 text-left"><div class="bg-blue-100 text-black py-1 px-2 rounded-md">Nama Dokter 2</div></td>
+                    <td class="py-2 px-4 text-center"><div class="bg-blue-100 text-black py-1 px-2 rounded-md">Spesialisasi 2</div></td>
+                    <td class="py-2 px-4 text-center"><div class="bg-green-500 text-white py-1 px-2 rounded-md">tersedia</div></td>
+                </tr>
+                <tr class="bg-49ABE7 text-white">
+                    <td class="py-2 px-4 text-left"><div class="bg-blue-100 text-black py-1 px-2 rounded-md">Nama Dokter 2</div></td>
+                    <td class="py-2 px-4 text-center"><div class="bg-blue-100 text-black py-1 px-2 rounded-md">Spesialisasi 2</div></td>
+                    <td class="py-2 px-4 text-center"><div class="bg-red-500 text-white py-1 px-2 rounded-md">Tidak Tersedia</div></td>
+                </tr>
+                <tr class="bg-49ABE7 text-white">
+                    <td class="py-2 px-4 text-left"><div class="bg-blue-100 text-black py-1 px-2 rounded-md">Nama Dokter 2</div></td>
+                    <td class="py-2 px-4 text-center"><div class="bg-blue-100 text-black py-1 px-2 rounded-md">Spesialisasi 2</div></td>
+                    <td class="py-2 px-4 text-center"><div class="bg-green-500 text-white py-1 px-2 rounded-md">Tersedia</div></td>
+                </tr>
+                <tr class="bg-49ABE7 text-white">
+                    <td class="py-2 px-4 text-left"><div class="bg-blue-100 text-black py-1 px-2 rounded-md">Nama Dokter 2</div></td>
+                    <td class="py-2 px-4 text-center"><div class="bg-blue-100 text-black py-1 px-2 rounded-md">Spesialisasi 2</div></td>
+                    <td class="py-2 px-4 text-center"><div class="bg-green-500 text-white py-1 px-2 rounded-md">Tersedia</div></td>
+                </tr>
+                <tr class="bg-49ABE7 text-white">
+                    <td class="py-2 px-4 text-left"><div class="bg-blue-100 text-black py-1 px-2 rounded-md">Nama Dokter 2</div></td>
+                    <td class="py-2 px-4 text-center"><div class="bg-blue-100 text-black py-1 px-2 rounded-md">Spesialisasi 2</div></td>
+                    <td class="py-2 px-4 text-center"><div class="bg-red-500 text-white py-1 px-2 rounded-md">Tidak Tersedia</div></td>
+                </tr>
+                <tr class="bg-49ABE7 text-white">
+                    <td class="py-2 px-4 text-left"><div class="bg-blue-100 text-black py-1 px-2 rounded-md">Nama Dokter 2</div></td>
+                    <td class="py-2 px-4 text-center"><div class="bg-blue-100 text-black py-1 px-2 rounded-md">Spesialisasi 2</div></td>
+                    <td class="py-2 px-4 text-center"><div class="bg-red-500 text-white py-1 px-2 rounded-md">Tidak Tersedia</div></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Pagination -->
+    <div class="mx-auto mt-4 max-w-6xl rounded-lg p-4 flex justify-center ">
+        <div class="rounded-lg bg-blue-400 w-8 h-8 flex items-center justify-center mr-2"></div>
+        <div class="rounded-lg bg-blue-200 w-8 h-8 flex items-center justify-center mr-2"></div>
+        <div class="rounded-lg bg-blue-200 w-8 h-8 flex items-center justify-center mr-2"></div>
+        <div class="rounded-lg bg-blue-200 w-8 h-8 flex items-center justify-center mr-2"></div>
+        <div class="rounded-lg bg-blue-200 w-8 h-8 flex items-center justify-center mr-2"></div>
+        <!-- Tambahkan tombol pagination lainnya di sini -->
+    </div>
+
+
+<footer style="background-image: url(&quot;footer.483b383d.jpg&quot;); background-position: center; background-size: cover" class="bg-blue-500 text-white py-12 flex items-center justify-center">
+    <div class="container mx-auto flex flex-wrap justify-between items-start">
+        
+        <!-- Alamat -->
+        <div class="w-full sm:w-auto mb-8 sm:mb-0 ml-12">
+            <img src="/logo-white.008c5bf0.png" alt="Logo" class="h-12">
+            <p class="ml-2"><i>8 W . Tanggerang, GA 30158</i></p>
+            <p class="ml-2"><i>5Briarwood LaneVienna, VA 22180 TGR</i></p>
+            <div class="flex items-center mt-4 space-x-4">
+                <img src="/youtube.af205e62.png" alt="Facebook" class="h-6">
+                <img src="/facebook.d99ca3ee.png" alt="Twitter" class="h-6">
+                <img src="/whatsapp.cec5a21f.png" alt="Instagram" class="h-6">
+            </div>
+        </div>
+        
+
+        <!-- Company Info -->
+        <div class="w-full sm:w-auto mb-8 sm:mb-0">
+            <p>Company Info</p>
+            <ul class="list-disc ml-4 mt-4">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+            </ul>
+        </div>
+        
+        <!-- Book Now -->
+        <div class="w-full sm:w-auto mb-8 sm:mb-0">
+            <p>Book Now</p>
+            <a href="#" class="underline mt-4">Appointment</a>
+        </div>
+        
+        <!-- Contact -->
+        <div class="w-full sm:w-auto mb-8 sm:mb-0 mr-12">
+            <p>Contact</p>
+            <p>No. HP: 123456789</p>
+            <p>Email: example@example.com</p>
+        </div>
+    </div>
+</footer>
+<script src="/availabledoctor.7d811756.js"></script></body>
+</html>
