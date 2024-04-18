@@ -136,15 +136,9 @@
                                         <div class="rekomendasi-teratas">Rekomendasi Teratas</div>
                                     </div>
                                     <script>
-                                        // Ambil elemen dengan kelas .rekomendasi-teratas
                                         const rekomendasiTeratas = document.querySelector('.rekomendasi-teratas');
-
-                                        // Tambahkan event listener untuk menanggapi klik
                                         rekomendasiTeratas.addEventListener('click', function () {
-                                            // Periksa apakah teks sudah dalam format tebal
                                             const isBold = this.style.fontWeight === 'bold';
-
-                                            // Jika belum, maka buat teks menjadi tebal (bold), jika sudah, buat normal kembali
                                             this.style.fontWeight = isBold ? 'normal' : 'bold';
                                         });
                                     </script>
@@ -206,17 +200,12 @@
 
                                             <script>
                                                 function showAlert() {
-                                                    // Ganti URL di bawah ini sesuai dengan URL yang ingin Anda tuju
                                                     const url = "/Users/clarissasy/Documents/UPH/Semester 8 - MSIB/Warmth Smile/Profil Psikolog/index.html";
-
-                                                    // Cek apakah ada jadwal
-                                                    const hasSchedule = false; // Ganti nilai ini sesuai dengan logika Anda
+                                                    const hasSchedule = false; 
 
                                                     if (hasSchedule) {
-                                                        // Jika ada jadwal, lanjutkan ke halaman tujuan
                                                         window.location.href = url;
                                                     } else {
-                                                        // Jika tidak ada jadwal, tampilkan sweet alert dengan pilihan tombPol
                                                         swal({
                                                             title: "Gagal",
                                                             text: "Tidak ada jadwal yang tersedia saat ini",
@@ -226,9 +215,7 @@
                                                                 chooseSchedule: "Pilih Jadwal"
                                                             },
                                                         }).then((value) => {
-                                                            // Handle jika pengguna memilih "Pilih Jadwal"
                                                             if (value === "chooseSchedule") {
-                                                                // Tambahkan logika Anda untuk menangani pengaturan jadwal di sini
                                                                 console.log("Pilih Jadwal telah dipilih");
                                                             }
                                                         });
