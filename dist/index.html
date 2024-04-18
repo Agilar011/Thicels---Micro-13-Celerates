@@ -45,14 +45,14 @@
 
           <!--Navbar -->
           <nav class="m-0 w-[557px] flex flex-col items-start justify-end pt-0 pb-5 pr-[33px] pl-0 box-border max-w-full mq1100:hidden mq450:w-[33px]">
-            <nav class="m-0 self-stretch flex flex-row items-start justify-start gap-[28px] text-center text-4xl text-steelblue-300 font-poppins mq450:hidden">
+            <nav class="text-blue-300 m-0 self-stretch flex flex-row items-start justify-start gap-[28px] text-center text-4xl text-steelblue-300 font-poppins mq450:hidden">
               <!--Beranda -->
-              <div class="flex-1 flex flex-row items-start justify-start">
+              <a href="/index.html"><div class="flex-1 flex flex-row items-start justify-start">
                 <h3 class="m-0 flex-1 relative text-inherit leading-[20px] font-normal font-inherit">
                   Beranda
                 </h3>
-              </div>
-
+              </div></a>
+              
               <!--Donasi -->
               <a href="/homePageDonation.html"><div class="flex-1 flex flex-row items-start justify-start">
                   <h3 class="m-0 flex-1 relative text-inherit leading-[20px] font-normal font-inherit">
@@ -61,17 +61,33 @@
                 </div>
               </a>
 
-              <div class="flex-1 flex flex-row items-start justify-start cursor-pointer" id="layananContainer">
+              <!--Layanan -->
+              <a href="/index.html">
+                <div class="flex-1 flex flex-row items-start justify-start cursor-pointer" id="layananContainer">
                 <h3 class="m-0 flex-1 relative text-inherit leading-[20px] font-normal font-inherit">
                   Layanan
                 </h3>
               </div>
 
-              <div class="flex-1 flex flex-row items-start justify-start">
-                <h3 class="m-0 flex-1 relative text-inherit leading-[20px] font-normal font-inherit">
-                  Kontak
-                </h3>
-              </div>
+              </a>
+                
+              <!-- kontak -->
+              <a href="/Kontak/index.html">
+                <div class="flex-1 flex flex-row items-start justify-start">
+                  <h3 class="m-0 flex-1 relative text-inherit leading-[20px] font-normal font-inherit">
+                    Kontak
+                  </h3>
+                </div>
+              </a>
+              
+              <!-- Artikel -->
+              <a href="/Artikel/index.html">
+                <div class="flex-1 flex flex-row items-start justify-start">
+                  <h3 class="m-0 flex-1 relative text-inherit leading-[20px] font-normal font-inherit">
+                    Artikel
+                  </h3>
+                </div>
+              </a>
             </nav>
           </nav>
 

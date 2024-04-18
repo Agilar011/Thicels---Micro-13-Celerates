@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="flex items-center justify-between bg-F2F7FF py-4 px-6 shadow-md">
+        <!-- Logo -->
+        <div class="flex items-center">
+            <img src="/logo.3421123a.png" alt="Logo" class="h-15 mr-4">
+        </div>
+    
+        <!-- Navigasi -->
+        <div class="flex-grow text-center">
+            <ul class="flex justify-center space-x-6">
+                <li><a href="#" class="text-blue-400 hover:text-gray-900 transition duration-300">Beranda</a></li>
+                <li><a href="#" class="text-blue-400 hover:text-gray-900 transition duration-300">Donasi</a></li>
+                <li><a href="#" class="text-blue-400 hover:text-gray-900 transition duration-300">Layanan</a></li>
+                <li><a href="#" class="text-blue-400 hover:text-gray-900 transition duration-300">Kontak</a></li>
+                <li><a href="#" class="text-blue-400 hover:text-gray-900 transition duration-300">Artikel</a></li>
+            </ul>
+        </div>
+    
+        <!-- Tombol -->
+        <div class="flex items-center space-x-4">
+            <button class="bg-blue-500 text-white py-3 px-6 rounded-l-md hover:bg-blue-600 transition duration-300">Masuk</button>
+            <button class="bg-white text-blue-500 py-3 px-6 rounded-r-md border border-blue-500 hover:bg-blue-100 transition duration-300">Daftar</button>
+        </div>
+    </nav>
+
+
+   <div class="container mx-auto flex justify-between p-8">
+        <!-- Profile Card -->
+        <div class="bg-blue-500 text-white p-8 rounded-lg w-screen">
+            <img src="/asset%20profil%20doctor.a00730f3.png" alt="Foto Dokter" class="bg-gray-100 h-64 rounded-full mx-auto mb-4">
+            <div class="text-center">
+                <p class="text-xl font-bold">Dr. Smith Werson</p>
+                <p>Umur: 35 tahun</p>
+                <p>Bidang Keahlian: Kardiologi</p>
+                <div class="flex items-center justify-center mt-4">
+                    <img src="/icon%20univ.33beaaa8.png" alt="Universitas" class="w-6 h-6 mr-2">
+                    <p class="inline-block">Universitas ABC</p>
+                </div>
+                <div class="flex items-center justify-center mt-2">
+                    <img src="/icon%20hospital.fcd98149.png" alt="Rumah Sakit" class="w-6 h-6 mr-2">
+                    <p class="inline-block">Rumah Sakit XYZ</p>
+                </div>
+                <div class="flex items-center justify-center mt-2">
+                    <img src="/icon%20eagle.174fae26.png" alt="Nomor Telepon" class="w-6 h-6 mr-2">
+                    <p class="inline-block">+62 123 4567 8901</p>
+                </div>
+                <div class="mt-4">
+                    <h1 class="text-lg text-white font-bold">Spesialisasi:</h1>
+                    <div class="flex justify-center mt-4 space-x-2">
+                        <button class="bg-blue-200 text-black py-2 px-4 rounded-md">Kardiologi</button>
+                        <button class="bg-blue-200 text-black py-2 px-4 rounded-md">Neurologi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!-- About Me -->
+                <div class="bg-blue-100 p-8 rounded-lg">
+                    <h1 class="text-xl font-bold mb-2">Tentang Saya</h1>
+                    <p class="text-sm mb-4">Kami di sini untuk memenuhi kebutuhan kesehatan Anda dengan menyediakan dokter spesialis yang tepat, termasuk Kedokteran Gigi dan Orthodontik, ENT, Oral Bedah Mulut, Perawatan Anak, Terapis Pidato, dan Psikolog yang ahli dalam mengobati stres/depresi, gangguan keluarga, trauma dan anak-anak. Nak. Nikmati pengalaman konsultasi terbaik yang disesuaikan dengan kebutuhan kesehatan Anda.</p>
+                    <h1 class="text-xl font-bold text-black">INFORMASI</h1>
+                    <img src="/Informasi.b05f4ffe.png" alt="Foto Saya" class="justify-center">
+                    <p class="text-lg">Jam Kerja:</p>
+                    <div class="flex justify-start space-x-4 items-center mb-4">
+                        <div class="bg-blue-200 text-blue-800 py-2 px-4 rounded-md">
+                            Senin - Rabu : 09.00 - 12.00
+                        </div>
+                        <div class="bg-blue-200 text-blue-800 py-2 px-4 rounded-md">
+                            Kamis - Juma'at : 13.00 - 16.00
+                        </div>
+                    </div>
+                    <div class="flex justify-start space-x-4">
+                        <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded-md">Chat Sekarang</button>
+                        <button id="janji-temu-btn" class="bg-white border-blue-500 border text-blue-800 py-2 px-4 rounded-md">Buat Janji Temu</button>
+                    </div>
+                </div>
+            </div>
+    
+
+
+    <footer style="background-image: url(&quot;footer.3cc479d9.png&quot;); background-position: center; background-size: 1300px; height: 300px" class="bg-blue-500 text-white py-12"></footer>
+    
+
+    <script>document.addEventListener("DOMContentLoaded", function() {
+    const buatJanjiBtn = document.querySelector("#janji-temu-btn");
+    buatJanjiBtn.addEventListener("click", function() {
+        Swal.fire({
+            title: "Konsultasi berhasil!",
+            html: "Jadwal konsultasi Anda dengan dokter berhasil dibuat.",
+            icon: "success",
+            confirmButtonText: "Batal",
+            confirmButtonText: "Pilih Jadwal"
+        });
+    });
+});
+
+</script>
+<script src="/detail_profile_doctor_success.cb991336.js"></script></body>
+</html> 
