@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="globals.css" />
+  <link rel="stylesheet" href="styleguide.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+  <div class="KONTAK">
+    <div class="div">
+      <div class="group">
+        <div class="overlap">
+          <div class="nav">
+            <div class="group-2">
+              <div class="group-wrapper">
+                <div class="overlap-group-wrapper">
+                  <div class="overlap-group">
+                    <div class="rectangle"></div>
+                    <div class="rectangle-2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-wrapper">Warmth Smile</div>
+            </div>
+            <div class="frame">
+              <div class="div-wrapper">
+                <div class="text-wrapper-2">Masuk</div>
+              </div>
+              <div class="frame-2">
+                <div class="text-wrapper-3">Daftar</div>
+              </div>
+            </div>
+            <div class="frame-3">
+              <div class="group-3">
+                <div class="text-wrapper-4">Beranda</div>
+              </div>
+              <div class="group-3">
+                <div class="text-wrapper-4">Donasi</div>
+              </div>
+              <div class="group-3">
+                <div class="text-wrapper-4">Layanan</div>
+              </div>
+              <div class="group-4">
+                <div class="k"></div>
+                <div class="text-wrapper-5">Artikel</div>
+              </div>
+            </div>
+            <img class="vector" src="img/vector-4-1.svg" />
+          </div>
+          <div class="text-wrapper-6">Kontak</div>
+        </div>
+      </div>
+      <div class="group-5">
+        <div class="text-wrapper-7">Hubungi Kami</div>
+        <p class="p">Ada pertanyaan atau komentar? Cukup tulis pesan kepada kami!</p>
+      </div>
+      <div class="overlap-2">
+        <div class="group-6">
+          <div class="group-7">
+            <div class="text-wrapper-8">Nama Depan</div>
+          </div>
+          <div class="group-8">
+            <div class="text-wrapper-8">Email</div>
+          </div>
+          <div class="group-9">
+            <div class="text-wrapper-8">Nama Belakang</div>
+          </div>
+          <div class="group-10">
+            <div class="text-wrapper-8">Pesan</div>
+          </div>
+          <div class="group-11">
+            <div class="group-12">
+              <div class="text-wrapper-8">Nomor telepon</div>
+            </div>
+          </div>
+          <div class="frame-4">
+            <div class="text-wrapper-9">Kirim Pesan</div>
+          </div>
+
+        </div>
+        <img class="letter-send" src="img/letter-send-1.png" />
+        <div class="component"><img class="el-map-marker" src="img/el-map-marker.svg" /></div>
+        <div class="bg"><input type="text" class="text-box" placeholder="Isi teks di sini"></div>
+        <input id="text-box-1" type="text" class="text-box bg" placeholder="" required>
+        <input id="text-box-2" type="text" class="text-box bg-2" placeholder="" required>
+        <input id="text-box-3" type="text" class="text-box bg-3" placeholder="" required>
+        <input id="text-box-4" type="text" class="text-box bg-4" placeholder="" required>
+        <input id="text-box-5" type="text" class="text-box bg-5" placeholder="" required>
+      </div>
+      <div class="footage-default">
+        <footer class="footer">
+          <div class="frame-5">
+            <div class="frame-6">
+              <div class="frame-7">
+                <div class="group-13">
+                  <div class="group-14">
+                    <div class="group-15">
+                      <div class="overlap-group-2">
+                        <div class="rectangle-3"></div>
+                        <div class="rectangle-4"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-wrapper-10">Warmth Smile</div>
+                </div>
+                <p class="element-w-tangerang-GA">
+                  8 W. Tangerang, GA 30518<br />5Briarwood LaneVienna, VA 22180 TGR
+                </p>
+              </div>
+              <img class="img" src="img/frame-37571-1.svg" />
+            </div>
+            <div class="frame-8">
+              <div class="text-wrapper-11">Perusahaan</div>
+              <div class="frame-7">
+                <div class="text-wrapper-12">Tentang</div>
+                <div class="text-wrapper-13">Layanan</div>
+              </div>
+            </div>
+            <div class="frame-9">
+              <div class="text-wrapper-14">Konsultasi</div>
+              <div class="frame-7">
+                <div class="text-wrapper-12">Reservasi</div>
+              </div>
+            </div>
+            <div class="frame-10">
+              <div class="text-wrapper-14">Kontak</div>
+              <div class="frame-7">
+                <div class="text-wrapper-12">FAQ</div>
+                <div class="text-wrapper-13">warmthsmile@gmail.com</div>
+                <div class="text-wrapper-13">Telp: +1 12345678</div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const textInputs = document.querySelectorAll("input[type='text']");
+  const sendButton = document.querySelector(".text-wrapper-9");
+
+  sendButton.addEventListener("click", function() {
+    let isFilled = true;
+
+    for (let i = 0; i < textInputs.length; i++) {
+      const input = textInputs[i];
+      if (input.value === "") {
+        isFilled = false;
+        break;
+      }
+    }
+
+    if (!isFilled) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Mohon isi semua kotak teks!',
+      });
+    } else {
+      Swal.fire({
+        icon: 'success',
+        title: 'Pesan terkirim!',
+        showConfirmButton: false,
+        timer: 1500
+      });
+    }
+  });
+});
+</script>
+</html>

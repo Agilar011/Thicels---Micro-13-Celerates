@@ -1,0 +1,695 @@
+.KONTAK {
+  background-color: #f2f7ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.KONTAK .div {
+  background-color: #f2f7ff;
+  overflow: hidden;
+  width: 1512px;
+  height: 1427px;
+  position: relative;
+}
+
+.KONTAK .group {
+  position: absolute;
+  width: 1514px;
+  height: 105px;
+  top: 0;
+  left: 0;
+}
+
+.KONTAK .overlap {
+  position: relative;
+  width: 1516px;
+  height: 109px;
+  top: -2px;
+  left: -2px;
+}
+
+.KONTAK .nav {
+  position: absolute;
+  width: 1516px;
+  height: 109px;
+  top: 0;
+  left: 0;
+  background-color: #f2f7ff;
+  border-bottom-width: 2.1px;
+  border-bottom-style: solid;
+  border-color: #1616160d;
+}
+
+.KONTAK .group-2 {
+  position: absolute;
+  width: 281px;
+  height: 63px;
+  top: 13px;
+  left: 77px;
+}
+
+.KONTAK .group-wrapper {
+  position: absolute;
+  width: 30px;
+  height: 31px;
+  top: 0;
+  left: 249px;
+  background-color: #ffffff;
+  border-radius: 15.22px/15.75px;
+  box-shadow: inset 0px 4.2px 4.2px #0000001f, 0px 4.2px 19.95px #1578f233;
+}
+
+.KONTAK .overlap-group-wrapper {
+  position: relative;
+  width: 17px;
+  height: 18px;
+  top: 7px;
+  left: 7px;
+}
+
+.KONTAK .overlap-group {
+  position: relative;
+  height: 18px;
+}
+
+.KONTAK .rectangle {
+  height: 18px;
+  position: absolute;
+  width: 7px;
+  top: 0;
+  left: 5px;
+  background-color: #208bcc;
+  border-radius: 0.82px;
+}
+
+.KONTAK .rectangle-2 {
+  height: 17px;
+  transform: rotate(90deg);
+  position: absolute;
+  width: 7px;
+  top: 0;
+  left: 5px;
+  background-color: #208bcc;
+  border-radius: 0.82px;
+}
+
+.KONTAK .text-wrapper {
+  position: absolute;
+  width: 244px;
+  height: 52px;
+  top: 11px;
+  left: 0;
+  font-family: "Sora", Helvetica;
+  font-weight: 600;
+  color: #208bcc;
+  font-size: 33.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KONTAK .frame {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10.5px;
+  position: absolute;
+  top: 28px;
+  left: 1191px;
+}
+
+.KONTAK .div-wrapper {
+  display: flex;
+  width: 115.5px;
+  height: 47.25px;
+  align-items: center;
+  justify-content: center;
+  gap: 10.5px;
+  padding: 8.4px 25.2px;
+  position: relative;
+  background-color: #208bcc;
+  border-radius: 8.4px;
+  overflow: hidden;
+}
+
+.KONTAK .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.78px;
+  margin-bottom: -0.78px;
+  margin-left: -3.95px;
+  margin-right: -3.95px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--primary-50);
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: -252px;
+}
+
+.KONTAK .frame-2 {
+  display: flex;
+  width: 121.8px;
+  height: 53.55px;
+  align-items: center;
+  justify-content: center;
+  gap: 10.5px;
+  padding: 8.4px 25.2px;
+  position: relative;
+  margin-top: -3.15px;
+  margin-bottom: -3.15px;
+  margin-right: -3.15px;
+  background-color: #ffffff;
+  border-radius: 8.4px;
+  overflow: hidden;
+  border: 3.15px solid;
+  border-color: var(--primary-300);
+}
+
+.KONTAK .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.78px;
+  margin-left: -1.95px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #208bcc;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: -252px;
+}
+
+.KONTAK .frame-3 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 29.4px;
+  position: absolute;
+  top: 46px;
+  left: 403px;
+}
+
+.KONTAK .group-3 {
+  position: relative;
+  width: 117.5px;
+  height: 21px;
+}
+
+.KONTAK .text-wrapper-4 {
+  position: absolute;
+  width: 115px;
+  height: 21px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #208bcc;
+  font-size: 24.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.8px;
+  white-space: nowrap;
+}
+
+.KONTAK .group-4 {
+  position: relative;
+  width: 274.66px;
+  height: 23.1px;
+  margin-right: -4px;
+}
+
+.KONTAK .k {
+  position: absolute;
+  width: 115px;
+  height: 21px;
+  top: 2px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #208bcc;
+  font-size: 24.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.8px;
+  white-space: nowrap;
+}
+
+.KONTAK .text-wrapper-5 {
+  position: absolute;
+  width: 115px;
+  height: 21px;
+  top: 0;
+  left: 155px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #208bcc;
+  font-size: 24.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.8px;
+  white-space: nowrap;
+}
+
+.KONTAK .vector {
+  position: absolute;
+  width: 152px;
+  height: 13px;
+  top: 77px;
+  left: 81px;
+}
+
+.KONTAK .text-wrapper-6 {
+  position: absolute;
+  height: 34px;
+  top: 42px;
+  left: 854px;
+  font-weight: 600;
+  color: #208bcc;
+  font-size: 24.1px;
+  text-align: center;
+  line-height: 33.8px;
+  white-space: nowrap;
+  font-family: "Poppins", Helvetica;
+  letter-spacing: 0;
+}
+
+.KONTAK .group-5 {
+  position: absolute;
+  width: 602px;
+  height: 97px;
+  top: 145px;
+  left: 421px;
+}
+
+.KONTAK .text-wrapper-7 {
+  position: absolute;
+  top: 0;
+  left: 186px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KONTAK .p {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #707070;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KONTAK .overlap-2 {
+  position: absolute;
+  width: 1196px;
+  height: 691px;
+  top: 294px;
+  left: 121px;
+}
+
+.KONTAK .group-6 {
+  position: absolute;
+  width: 1196px;
+  height: 667px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 60px 30px #00000008;
+}
+
+.KONTAK .group-7 {
+  position: absolute;
+  width: 83px;
+  height: 20px;
+  top: 60px;
+  left: 551px;
+}
+
+.KONTAK .text-wrapper-8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.KONTAK .group-8 {
+  position: absolute;
+  width: 36px;
+  height: 20px;
+  top: 160px;
+  left: 551px;
+}
+
+.KONTAK .group-9 {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  top: 60px;
+  left: 868px;
+}
+
+.KONTAK .group-10 {
+  position: absolute;
+  width: 39px;
+  height: 20px;
+  top: 276px;
+  left: 551px;
+}
+
+.KONTAK .group-11 {
+  position: absolute;
+  width: 91px;
+  height: 20px;
+  top: 160px;
+  left: 868px;
+}
+
+.KONTAK .group-12 {
+  position: relative;
+  width: 93px;
+  height: 20px;
+}
+
+.KONTAK .frame-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8.57px;
+  padding: 12.86px 41.14px;
+  position: absolute;
+  top: 441px;
+  left: 906px;
+  background-color: #208bcc;
+  border-radius: 4.29px;
+  box-shadow: 0px 0px 12px #0000001f;
+}
+
+.KONTAK .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.86px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KONTAK .letter-send {
+  position: absolute;
+  width: 265px;
+  height: 217px;
+  top: 474px;
+  left: 759px;
+}
+
+.KONTAK .component {
+  position: absolute;
+  width: 529px;
+  height: 666px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/component-6.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.KONTAK .el-map-marker {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 275px;
+  left: 248px;
+}
+
+.KONTAK .bg {
+  width: 205px;
+  height: 34px;
+  top: 98px;
+  left: 551px;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #dcdcdc;
+}
+
+.KONTAK .bg-2 {
+  width: 205px;
+  height: 34px;
+  top: 98px;
+  left: 868px;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #dcdcdc;
+}
+
+.KONTAK .bg-3 {
+  width: 205px;
+  height: 34px;
+  top: 196px;
+  left: 868px;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #dcdcdc;
+}
+
+.KONTAK .bg-4 {
+  width: 205px;
+  height: 34px;
+  top: 196px;
+  left: 551px;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #dcdcdc;
+}
+
+.KONTAK .bg-5 {
+  width: 522px;
+  height: 84px;
+  top: 316px;
+  left: 551px;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #dcdcdc;
+}
+
+.KONTAK .footage-default {
+  position: absolute;
+  width: 1512px;
+  height: 414px;
+  top: 1013px;
+  left: 0;
+}
+
+.KONTAK .footer {
+  width: 1512px;
+  height: 414px;
+  background-color: transparent;
+  background-image: url(./img/rectangle-1076-1.png);
+  background-size: 100% 100%;
+}
+
+.KONTAK .frame-5 {
+  position: relative;
+  width: 1166px;
+  height: 191px;
+  top: 111px;
+  left: 145px;
+}
+
+.KONTAK .frame-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25.2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.KONTAK .frame-7 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16.8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.KONTAK .group-13 {
+  position: relative;
+  width: 275px;
+  height: 51.45px;
+}
+
+.KONTAK .group-14 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  left: 248px;
+  background-color: #ffffff;
+  border-radius: 12.6px;
+  box-shadow: inset 0px 4.2px 4.2px #0000001f, 0px 4.2px 19.95px #1578f233;
+}
+
+.KONTAK .group-15 {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  top: 5px;
+  left: 5px;
+}
+
+.KONTAK .overlap-group-2 {
+  position: relative;
+  height: 14px;
+}
+
+.KONTAK .rectangle-3 {
+  position: absolute;
+  width: 5px;
+  height: 14px;
+  top: 0;
+  left: 4px;
+  background-color: #208bcc;
+  border-radius: 0.82px;
+}
+
+.KONTAK .rectangle-4 {
+  position: absolute;
+  width: 5px;
+  height: 14px;
+  top: 0;
+  left: 4px;
+  background-color: #208bcc;
+  border-radius: 0.82px;
+  transform: rotate(90deg);
+}
+
+.KONTAK .text-wrapper-10 {
+  position: absolute;
+  height: 42px;
+  top: 9px;
+  left: 0;
+  font-family: "Sora", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 33.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KONTAK .element-w-tangerang-GA {
+  position: relative;
+  width: 494.55px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 16.8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KONTAK .img {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.KONTAK .frame-8 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25.2px;
+  position: absolute;
+  top: 0;
+  left: 506px;
+}
+
+.KONTAK .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.05px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KONTAK .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.05px;
+  opacity: 0.8;
+  font-family: "Sora", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16.8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KONTAK .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  opacity: 0.8;
+  font-family: "Sora", Helvetica;
+  color: #ffffff;
+  font-size: 16.8px;
+  line-height: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.KONTAK .frame-9 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25.2px;
+  position: absolute;
+  top: 0;
+  left: 772px;
+}
+
+.KONTAK .text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.05px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.KONTAK .frame-10 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25.2px;
+  position: absolute;
+  top: 5px;
+  left: 1004px;
+}
