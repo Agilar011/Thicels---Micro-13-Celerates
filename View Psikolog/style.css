@@ -1,3 +1,15 @@
+
+
+
+.dropdown-content {
+  border: none;
+  width: max-content; 
+  min-width: 100%; 
+  max-height: 200px; 
+  overflow-y: auto; 
+  z-index: 1;
+}
+
 .dropdown {
   position: relative;
 }
@@ -1295,3 +1307,43 @@
   top: 74px;
   left: 77px;
 }
+
+.view-psikolog .frame-100 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #E5E5E7;
+  border: 1px solid;
+  border-color: #414141;
+
+}
+
+.view-psikolog .text-wrapper-100 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #414141;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.view-psikolog .text-wrapper-101 {
+  font-weight: 500;
+  color: #DC3545;
+
+}
+
+
+
+
+
